@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        jomhuria : ['Jomhuria', 'serif']
+      },
+      spacing : {
+        lg: '10.3rem',
+        sm : '2.5rem'
+      }
+    },
   },
   plugins: [],
 }

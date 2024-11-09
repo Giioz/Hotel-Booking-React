@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { Header } from './layouts/Header'
-import { getAllRoom } from './services/ApiService'
+import { getAllRoom } from './services/apiService';
 
 function App() {
   const [rooms, setRooms] = useState([]);
@@ -19,13 +19,11 @@ function App() {
    getRooms()
   }, [])
 
+ 
   return (
     <>
       <Header />
-      <p onClick={() => {
-        console.log(rooms);
-        
-      }}>asd</p>
+   
     </>
   )
 }
